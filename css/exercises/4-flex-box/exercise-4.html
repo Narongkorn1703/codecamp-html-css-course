@@ -1,12 +1,12 @@
 <div class="flex-playground-container">
-  <div class="item">
+  <div class="item item-1">
     <span>1</span>
   </div>
-  <div class="item">
+  <div class="item item-2">
     <span>2</span>
   </div>
-  <div class="item">
-    <span>3</span>
+  <div class="item item-3">
+    <span class="item-text">3</span>
   </div>
 </div>
 
@@ -21,14 +21,18 @@
     height: 100vh;
     background-color: khaki;
   }
+  
+  .item-text {
+    display: flex;
+  }
 
   .flex-playground-container {
-    /* เริ่มเขียนโค่้ดตรงนี้ */
     background-color: cornflowerblue;
     height: 100%;
     padding: 20px;
   }
-  
+
+   
   .item {
     display: flex;
     justify-content: center;
