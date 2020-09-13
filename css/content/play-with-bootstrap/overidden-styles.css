@@ -1,0 +1,56 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.login-form {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+  max-width: 600px;
+}
+
+/* button */
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  border-color: #17a2b8;
+}
+
+a.bg-info:focus, a.bg-info:hover, button.bg-info:focus, button.bg-info:hover {
+  background-color: #12707e !important;
+  border-color: #17a2b8;
+}
+
+btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #17a2b8;
+  box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #12707e;
+  border-color: #17a2b8;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+
+/* Form Control */
+.form-control {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #17a2b8;
+  outline: 0;
+  box-shadow: none;
+}
